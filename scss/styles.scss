@@ -46,7 +46,7 @@ img {
 	width: 100%;
 	height: 93vh;
 	position: relative;
-	background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+	background: url('/img/background.jpg') no-repeat center center/cover;
 }
 
 .showcase::after {
@@ -427,3 +427,33 @@ img {
 	margin-top: 3rem;
 }
 }
+
+@media (max-width: 600px) {
+    #tab-3-content .table-responsive {
+        width: 100%;
+        overflow-x: scroll; /* Allows horizontal scrolling if needed */
+    }
+
+    #tab-3-content .table {
+        min-width: 600px; /* Sets a minimum width for the table */
+    }
+
+    #tab-3-content .table thead th, 
+    #tab-3-content .table tbody td {
+        padding: 8px; /* Adjusts padding for table cells */
+    }
+
+    /* Optionally, adjust the font size for better readability */
+    #tab-3-content .table thead th, 
+    #tab-3-content .table tbody td {
+        font-size: 0.8rem;
+    }
+	.container {
+		max-width: 90%;
+		margin: auto;
+		overflow: hidden;
+		padding: 0 2rem;
+	}
+}
+
+
