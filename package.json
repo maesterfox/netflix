@@ -3,5 +3,27 @@
     "fontawesome": "^5.6.3",
     "git": "^0.1.5",
     "sass": "^1.69.5"
-  }
+  },
+  "name": "netflix",
+  "description": "Netflix Landing Page Recreation\r Overview\r This project is a re-creation of the Netflix landing page, developed using HTML, CSS, and a small amount of JavaScript for interactive tabs. It demonstrates modern web design techniques and aims to replicate the professional, sleek aesthetic of the Netflix homepage.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maesterfox/netflix.git"
+  },
+  "keywords": [
+    "netflix",
+    "clone"
+  ],
+  "author": "David Fox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maesterfox/netflix/issues"
+  },
+  "homepage": "https://github.com/maesterfox/netflix#readme"
 }
